@@ -3,19 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1526EDB1A237A426FA99F278 /* Pods_oneVitalsApplication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E1AED8E6F8AA01C0BE93123 /* Pods_oneVitalsApplication.framework */; };
+		7105AA5025C6099C00C5D9DF /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7105AA4F25C6099C00C5D9DF /* NavigationViewController.swift */; };
+		7105AA5F25C722CD00C5D9DF /* AppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7105AA5E25C722CD00C5D9DF /* AppointmentViewController.swift */; };
+		7105AA6425C8897300C5D9DF /* UITabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7105AA6325C8897300C5D9DF /* UITabbarViewController.swift */; };
+		71130B4625C9F73900425592 /* Weight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71130B4525C9F73900425592 /* Weight.swift */; };
+		716B675625A1AACE00E091FE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716B675425A1AABF00E091FE /* AVFoundation.framework */; };
+		716B675B25A1AAEF00E091FE /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716B675925A1AAEC00E091FE /* CFNetwork.framework */; };
 		716D13C3259ABCED005FB3E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716D13C2259ABCED005FB3E1 /* AppDelegate.swift */; };
 		716D13C5259ABCED005FB3E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716D13C4259ABCED005FB3E1 /* SceneDelegate.swift */; };
 		716D13C7259ABCED005FB3E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716D13C6259ABCED005FB3E1 /* ViewController.swift */; };
 		716D13CA259ABCED005FB3E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 716D13C8259ABCED005FB3E1 /* Main.storyboard */; };
 		716D13CC259ABCEE005FB3E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 716D13CB259ABCEE005FB3E1 /* Assets.xcassets */; };
 		716D13CF259ABCEE005FB3E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 716D13CD259ABCEE005FB3E1 /* LaunchScreen.storyboard */; };
+		717598C025BE3098002910C9 /* PatientCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717598BF25BE3098002910C9 /* PatientCell.swift */; };
+		717598C325C08658002910C9 /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717598C225C08658002910C9 /* Patient.swift */; };
+		7176CAB025A1B0E700E6AB13 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716B675925A1AAEC00E091FE /* CFNetwork.framework */; };
+		7176CAB525A2C9D600E6AB13 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716B675125A1A93900E091FE /* Alamofire.framework */; };
+		7189586025A0254F0017C38C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7189585F25A0254F0017C38C /* ProfileViewController.swift */; };
+		71A8378525A9764200C1FED4 /* AddNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A8378425A9764200C1FED4 /* AddNewViewController.swift */; };
+		71A8378825A9765400C1FED4 /* DisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A8378725A9765400C1FED4 /* DisplayViewController.swift */; };
+		71A8378C25BB842600C1FED4 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71A8378B25BB842600C1FED4 /* HealthKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C1969322D3CBB434BCA5A3F /* Pods-oneVitalsApplication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oneVitalsApplication.debug.xcconfig"; path = "Target Support Files/Pods-oneVitalsApplication/Pods-oneVitalsApplication.debug.xcconfig"; sourceTree = "<group>"; };
+		6BAFEC4C56B46FC3E33FC09F /* Pods-oneVitalsApplication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oneVitalsApplication.release.xcconfig"; path = "Target Support Files/Pods-oneVitalsApplication/Pods-oneVitalsApplication.release.xcconfig"; sourceTree = "<group>"; };
+		7105AA4F25C6099C00C5D9DF /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		7105AA5E25C722CD00C5D9DF /* AppointmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentViewController.swift; sourceTree = "<group>"; };
+		7105AA6325C8897300C5D9DF /* UITabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITabbarViewController.swift; sourceTree = "<group>"; };
+		71130B4525C9F73900425592 /* Weight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weight.swift; sourceTree = "<group>"; };
+		716B675125A1A93900E091FE /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		716B675425A1AABF00E091FE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		716B675925A1AAEC00E091FE /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		716D13BF259ABCED005FB3E1 /* oneVitalsApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oneVitalsApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		716D13C2259ABCED005FB3E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		716D13C4259ABCED005FB3E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +48,15 @@
 		716D13CB259ABCEE005FB3E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		716D13CE259ABCEE005FB3E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		716D13D0259ABCEE005FB3E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		717598BF25BE3098002910C9 /* PatientCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientCell.swift; sourceTree = "<group>"; };
+		717598C225C08658002910C9 /* Patient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Patient.swift; sourceTree = "<group>"; };
+		7189585F25A0254F0017C38C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		71A8378425A9764200C1FED4 /* AddNewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewViewController.swift; sourceTree = "<group>"; };
+		71A8378725A9765400C1FED4 /* DisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayViewController.swift; sourceTree = "<group>"; };
+		71A8378A25BB842600C1FED4 /* oneVitalsApplication.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = oneVitalsApplication.entitlements; sourceTree = "<group>"; };
+		71A8378B25BB842600C1FED4 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		71A8378E25BC2AE500C1FED4 /* oneVitalsApplicationRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = oneVitalsApplicationRelease.entitlements; sourceTree = "<group>"; };
+		8E1AED8E6F8AA01C0BE93123 /* Pods_oneVitalsApplication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_oneVitalsApplication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +64,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				716B675B25A1AAEF00E091FE /* CFNetwork.framework in Frameworks */,
+				716B675625A1AACE00E091FE /* AVFoundation.framework in Frameworks */,
+				7176CAB025A1B0E700E6AB13 /* CFNetwork.framework in Frameworks */,
+				7176CAB525A2C9D600E6AB13 /* Alamofire.framework in Frameworks */,
+				71A8378C25BB842600C1FED4 /* HealthKit.framework in Frameworks */,
+				1526EDB1A237A426FA99F278 /* Pods_oneVitalsApplication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D376C758D5E7E17CD2E7DB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71A8378B25BB842600C1FED4 /* HealthKit.framework */,
+				716B675925A1AAEC00E091FE /* CFNetwork.framework */,
+				716B675425A1AABF00E091FE /* AVFoundation.framework */,
+				716B675125A1A93900E091FE /* Alamofire.framework */,
+				8E1AED8E6F8AA01C0BE93123 /* Pods_oneVitalsApplication.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		716D13B6259ABCED005FB3E1 = {
 			isa = PBXGroup;
 			children = (
 				716D13C1259ABCED005FB3E1 /* oneVitalsApplication */,
 				716D13C0259ABCED005FB3E1 /* Products */,
+				CF6C53CC6E7B6C766067BF3E /* Pods */,
+				6D376C758D5E7E17CD2E7DB5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +109,35 @@
 		716D13C1259ABCED005FB3E1 /* oneVitalsApplication */ = {
 			isa = PBXGroup;
 			children = (
+				71A8378E25BC2AE500C1FED4 /* oneVitalsApplicationRelease.entitlements */,
+				71A8378A25BB842600C1FED4 /* oneVitalsApplication.entitlements */,
 				716D13C2259ABCED005FB3E1 /* AppDelegate.swift */,
 				716D13C4259ABCED005FB3E1 /* SceneDelegate.swift */,
 				716D13C6259ABCED005FB3E1 /* ViewController.swift */,
+				7189585F25A0254F0017C38C /* ProfileViewController.swift */,
 				716D13C8259ABCED005FB3E1 /* Main.storyboard */,
 				716D13CB259ABCEE005FB3E1 /* Assets.xcassets */,
 				716D13CD259ABCEE005FB3E1 /* LaunchScreen.storyboard */,
 				716D13D0259ABCEE005FB3E1 /* Info.plist */,
+				71A8378425A9764200C1FED4 /* AddNewViewController.swift */,
+				71A8378725A9765400C1FED4 /* DisplayViewController.swift */,
+				717598BF25BE3098002910C9 /* PatientCell.swift */,
+				717598C225C08658002910C9 /* Patient.swift */,
+				7105AA4F25C6099C00C5D9DF /* NavigationViewController.swift */,
+				7105AA5E25C722CD00C5D9DF /* AppointmentViewController.swift */,
+				7105AA6325C8897300C5D9DF /* UITabbarViewController.swift */,
+				71130B4525C9F73900425592 /* Weight.swift */,
 			);
 			path = oneVitalsApplication;
+			sourceTree = "<group>";
+		};
+		CF6C53CC6E7B6C766067BF3E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C1969322D3CBB434BCA5A3F /* Pods-oneVitalsApplication.debug.xcconfig */,
+				6BAFEC4C56B46FC3E33FC09F /* Pods-oneVitalsApplication.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +147,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 716D13D3259ABCEE005FB3E1 /* Build configuration list for PBXNativeTarget "oneVitalsApplication" */;
 			buildPhases = (
+				EC6EA499A3D01988ACE0BDA7 /* [CP] Check Pods Manifest.lock */,
 				716D13BB259ABCED005FB3E1 /* Sources */,
 				716D13BC259ABCED005FB3E1 /* Frameworks */,
 				716D13BD259ABCED005FB3E1 /* Resources */,
+				4C821878313F9042D0B0DBAB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,14 +207,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4C821878313F9042D0B0DBAB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-oneVitalsApplication/Pods-oneVitalsApplication-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-oneVitalsApplication/Pods-oneVitalsApplication-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-oneVitalsApplication/Pods-oneVitalsApplication-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC6EA499A3D01988ACE0BDA7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-oneVitalsApplication-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		716D13BB259ABCED005FB3E1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				717598C025BE3098002910C9 /* PatientCell.swift in Sources */,
+				71A8378525A9764200C1FED4 /* AddNewViewController.swift in Sources */,
+				71A8378825A9765400C1FED4 /* DisplayViewController.swift in Sources */,
+				7105AA5025C6099C00C5D9DF /* NavigationViewController.swift in Sources */,
 				716D13C7259ABCED005FB3E1 /* ViewController.swift in Sources */,
 				716D13C3259ABCED005FB3E1 /* AppDelegate.swift in Sources */,
+				717598C325C08658002910C9 /* Patient.swift in Sources */,
+				7105AA6425C8897300C5D9DF /* UITabbarViewController.swift in Sources */,
+				7189586025A0254F0017C38C /* ProfileViewController.swift in Sources */,
+				7105AA5F25C722CD00C5D9DF /* AppointmentViewController.swift in Sources */,
 				716D13C5259ABCED005FB3E1 /* SceneDelegate.swift in Sources */,
+				71130B4625C9F73900425592 /* Weight.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +302,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_MODULES_AUTOLINK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
@@ -237,6 +364,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_MODULES_AUTOLINK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
@@ -283,37 +411,49 @@
 		};
 		716D13D4259ABCEE005FB3E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C1969322D3CBB434BCA5A3F /* Pods-oneVitalsApplication.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = oneVitalsApplication/oneVitalsApplication.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D26D5576DA;
 				INFOPLIST_FILE = oneVitalsApplication/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = oneVitals.oneVitalsApplication;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		716D13D5259ABCEE005FB3E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BAFEC4C56B46FC3E33FC09F /* Pods-oneVitalsApplication.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = oneVitalsApplication/oneVitalsApplicationRelease.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D26D5576DA;
 				INFOPLIST_FILE = oneVitalsApplication/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = oneVitals.oneVitalsApplication;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
